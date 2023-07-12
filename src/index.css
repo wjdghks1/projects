@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  font-family: sans-serif;
+}
+.navbar{
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f3f3f3;
+}
+.navbar h1{
+  color:#05445E;
+}
+.navbar .links{
+  margin-left:auto;
+}
+.navbar a{
+  margin-left:10px;
+  text-decoration: none;
+  padding: 5px;
+}
+.navbar a:hover{
+  color:#bd7bcb;
+}
+
+.content{
+  max-width: 1500px;
+  margin:40px auto;
+  padding:15px;
+}
